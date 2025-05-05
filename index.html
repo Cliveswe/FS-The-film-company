@@ -31,6 +31,7 @@
             margin: 15px 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
+            border-bottom: solid rgb(251, 228, 30);
         }
 
         #synopsis {
@@ -49,6 +50,11 @@
             width: 100%;
             border-radius: 10%;
             max-width: 100px;
+            height: auto;
+        }
+
+        #filmTrailer {
+            width: 400;
             height: auto;
         }
 
@@ -178,8 +184,10 @@
                     </tr>
                 </tbody>
             </table>
-            <p></p>
-            <iframe width="420" height="315" src="https://www.youtube.be/embed/L-_xHEv0l-w?autoplay=1&mute=1"></iframe>
+        </article>
+        <article id="trailer">
+            <p>Trailer</p>
+            <iframe id="filmTrailer" src="https://www.youtube.be/embed/L-_xHEv0l-w?autoplay=1&mute=1"></iframe>
         </article>
         <footer>
             <p>Web master Clive Leddy. Commissioned by SF The Film Conpany.</p>
